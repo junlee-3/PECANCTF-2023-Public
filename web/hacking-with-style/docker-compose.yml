@@ -1,0 +1,16 @@
+# Specify the Docker Compose version to use
+version: "3"
+
+# Define the web service
+services:
+  web:
+    # Build the image using the Dockerfile in the current directory
+    build: .
+    # Ensure the container restarts if it fails or if the system restarts
+    restart: always
+    # Map the container's port 8080 to the host's port 8080
+    ports:
+      - "8080:8080"
+    # Apply seccomp security profile to the container to restrict system calls
+    # security_opt:
+    #   - seccomp:chrome.json

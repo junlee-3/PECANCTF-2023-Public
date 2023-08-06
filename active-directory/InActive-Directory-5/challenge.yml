@@ -1,0 +1,23 @@
+name: InActive Directory 5
+author: Chris Fitzsimons (CyberCX)
+description: |-
+  Read InActive Directory 1 for challenge files and scenario.
+
+  How did the attacker get access to the service account?
+
+  Flag Format is pecan{SVC_WEBSERVER-Password}
+flags:
+  - pecan{SVC_WEBSERVER-D0nt_Pu7_P4ssw0rd5_1n_D3scr1pti0n}
+value: 200
+type: dynamic
+extra:
+  initial: 500
+  decay: 4
+  function: linear
+  minimum: 100
+
+hints:
+  - {
+      content: "Where do Admins sometimes store information about accounts?",
+      cost: 10,
+    }

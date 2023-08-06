@@ -1,0 +1,26 @@
+doctype html
+html
+    head
+        title Account info
+        link(href='/pico.classless.min.css', rel='stylesheet')
+        style
+            != css
+    body
+        header
+            h1 Account info
+            nav
+                ul
+                    li
+                        a(href='/') Home
+        if loggedIn
+            header
+                h1 Hi there, #{username}!
+            main
+                input(value=username disabled id='username')
+                input(value=password disabled id='password')
+        else
+            header
+                h1 You're not logged in!
+            main
+                p You need to be logged in to view your account info.
+                a(href='/login') Log in

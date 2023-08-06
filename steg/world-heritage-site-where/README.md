@@ -1,0 +1,1 @@
+The aim of this challenge is to teach students about metadata. Students can use websites such as metadata2go to view the GPS coordinates or view properties of the file in their local environment. Websites such as gps-coordinates.net can then be used to find the answer. 

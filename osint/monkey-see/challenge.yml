@@ -1,0 +1,22 @@
+name: monkey-see
+author: Celeste Ivers
+description: |
+  Japanese authorities have arrested an international monkey trafficker at Haneda airport in possession of 1 Japanese macaque.
+  Officials have hired you to pinpoint the scene of the crime so they can return the monkey to its natural environment. 
+  They have provided you with photographs of clothing worn by the suspect at the time of arrest. Using OSINT tools, track down the suspect. Provide the location and date. 
+
+  Flag format - pecan{location_date}
+  Example - pecan{kingspark_april2023}
+
+flags:
+  - pecan{snowmonkeypark_january2017}
+value: 200
+type: dynamic
+extra:
+  initial: 500
+  decay: 4
+  function: linear
+  minimum: 100
+files:
+  - Item1.png
+  - Item2.png

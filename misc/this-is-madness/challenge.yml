@@ -1,0 +1,16 @@
+name: This is madness!
+author: Jack Ellis
+description: Choose your next words carefully, Leonidas. They may be your last as king.
+
+flags:
+  - pecan{Madness...?_This_is_Sparta!}
+value: 400
+type: dynamic
+extra:
+  initial: 500
+  decay: 4
+  function: linear
+  minimum: 100
+
+files:
+  - 300.txt

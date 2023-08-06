@@ -1,0 +1,15 @@
+name: First contact
+author: Jack Ellis
+description: NASA intercepted an html file containing a message that appears to be from an alien race. NASA would like to return contact but are not sure where the message came from. Can you find out?
+
+flags:
+  - pecan{Greetings_from_Andromeda}
+value: 100
+type: dynamic
+extra:
+  initial: 500
+  decay: 4
+  function: linear
+  minimum: 100
+files:
+  - message.html

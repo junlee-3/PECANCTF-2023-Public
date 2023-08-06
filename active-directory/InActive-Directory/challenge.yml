@@ -1,0 +1,28 @@
+name: InActive Directory
+author: Chris Fitzsimons (CyberCX)
+description: |-
+  Oh no! A threat actor has made their way though my Active Directory network and has taken the server down :(
+  They did leave some of their collected data behind on one of our endpoints. The files look like they may contain some sensitive information.
+  I need your Active Directory skills to help me find out what they stole!
+
+  How many Domain Admins did the threat actor discover?
+
+  Note: The flag is the Domain Admin names with - in between. Order names alphabetically A-Z
+  Flag Format is pecan{ALEX_RYAN-BRIAN_CARTER-...}
+flags:
+  - pecan{ADMINISTRATOR-CEDRIC_ENGLAND-DIANN_FOREMAN-REYES_GUY-SONYA_BENDER-WILEY_SUMMERS}
+value: 100
+type: dynamic
+extra:
+  initial: 500
+  decay: 4
+  function: linear
+  minimum: 100
+
+files:
+  - evidence.zip
+
+hints:
+  - https://medium.com/@tristan_45472/getting-started-with-bloodhound-911ca94bd552
+  - https://www.pentestpartners.com/security-blog/bloodhound-walkthrough-a-tool-for-many-tradecrafts/
+  - https://book.hacktricks.xyz/windows-hardening/active-directory-methodology/bloodhound

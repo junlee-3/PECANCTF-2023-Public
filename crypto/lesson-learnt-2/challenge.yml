@@ -1,0 +1,16 @@
+name: Lesson Learnt 2
+author: Georgia Lee
+description: I wish she would just share her location...Oh no! Elizabeth left her phone at home. Perhaps these words are another code for her location? 
+
+flag:
+   - pecan{plumridge_lakes}
+value: 300
+type: dynamic
+extra:
+  initial: 500
+  decay: 4
+  function: linear
+  minimum: 100
+
+requirements:
+  - Lesson Learnt

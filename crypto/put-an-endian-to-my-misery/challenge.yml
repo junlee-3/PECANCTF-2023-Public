@@ -1,0 +1,13 @@
+name: Put an endian to my misery!
+author: Jack Ellis
+description: Oh no! Someone stored the flag in memory incorrectly. Can you unjumble it? acep_1{n4wl4g_5yt_t3t_3hm_0wd3x1!pu_}
+
+flags:
+  - pecan{1_4lw4y5_g3t_th3_tw0_m1x3d_up!}
+value: 200
+type: dynamic
+extra:
+  initial: 250
+  decay: 2
+  function: linear
+  minimum: 100

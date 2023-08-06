@@ -1,0 +1,16 @@
+# Required sections
+name: "Threat Hunter 3000"
+author: "Adam Brickhill"
+description: Blue team simulation challenge
+
+flags:
+  - pecan{e941bf93bcc73f1b97b021393c5d45593de444f0198deedc49c481eba60991d4}
+value: 400
+type: dynamic
+extra:
+  initial: 500
+  decay: 4
+  function: linear
+  minimum: 100
+
+image: .

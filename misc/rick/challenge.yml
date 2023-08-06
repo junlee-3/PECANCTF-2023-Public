@@ -1,0 +1,19 @@
+name: Rick
+author: Daniel Herald
+description: |-
+  The pecan cyber security officials have received an image, and we need your help to track down its source.
+  The flag is the video's YouTube sharelink eg pecan{your_link_here}
+
+flags:
+  - pecan{https://youtu.be/dQw4w9WgXcQ?t=20}
+value: 50
+type: dynamic
+extra:
+  initial: 250
+  decay: 2
+  function: linear
+  minimum: 100
+files:
+  - rick.png
+hints:
+  - Ensure you have included the timestamp in the url.

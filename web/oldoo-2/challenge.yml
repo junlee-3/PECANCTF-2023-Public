@@ -1,0 +1,16 @@
+name: Oldoo 2
+author: Hoang Minh Pham
+description: An admin is launch a version of a business management software but the admin uses an old version and there is a surprise. The surprise may lead to the software's backstage. Can you explore it?
+
+flags:
+  - pecan{upd4te_your_old_w3b_applic4tion_or_g3t_p4wned}
+
+value: 300
+type: dynamic
+extra:
+  initial: 500
+  decay: 4
+  function: linear
+  minimum: 100
+
+connection_info: https://pecan-oldoo.chals.io

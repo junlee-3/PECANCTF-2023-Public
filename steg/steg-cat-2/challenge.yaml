@@ -1,0 +1,27 @@
+name: Steg Cat Part 2
+author: Hoang Minh Pham (ECU)
+description: |-
+  When James knew that you were able to recover the hidden message,
+  he was so happy and sad at the same time because he knew his method can be
+  cracked. He decided to add another twist to his own LSB technique.
+
+  He used two LSB to hide the payload this time, and now he wants to know
+  whether you can recover it. One small hint is that he switched between the
+  two LSBs based on whether the order of the bit in a byte is even or odd.
+
+  Can you recover his payload this time?
+
+flag:
+  - pecan{Don't_just_use_one_Least_Significant_Bit_use_two}
+value: 250
+type: dynamic
+extra:
+  initial: 500
+  decay: 4
+  function: linear
+  minimum: 100
+
+files:
+  - new_cat_image.png  # The image carrying hidden message
+  - main_script_Medium.py  # The main script to run Steg
+  - LSBSteg_Script_To_Student.py  # The provided LSBSteg library

@@ -1,0 +1,17 @@
+name: World Heritage Site? Where?
+author: Nano Axton
+description: |- 
+  My partner was talking about visiting a world heritage site next year. 
+  He sent this photo and said "You know, this one. Check the metadata." 
+  Can you help me find where he's talking about, please? (name of the site, all lowercase. pecan{site}) 
+flags: 
+  - pecan{petra}
+value: 100
+type: dynamic
+extra:
+  initial: 500
+  decay: 4
+  function: linear
+  minimum: 100
+files: 
+  - FluffyKitty.jpg

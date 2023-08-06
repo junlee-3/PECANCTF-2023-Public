@@ -1,0 +1,19 @@
+name: deFILEd
+author: Winiata Lambert
+description: |-
+  A file has been subject to a peculiar spell, rendering it unreadable.
+  By skilfully manipulating some enchanted digits, you can unveil the true nature of the file.
+
+flags:
+  - pecan{h3x_f1n3ss3_fl3x}
+value: 100
+type: dynamic
+extra:
+  initial: 250
+  decay: 2
+  function: linear
+  minimum: 100
+files:
+  - revelio.png
+hints:
+  - "What are magic numbers? How can you edit them?"

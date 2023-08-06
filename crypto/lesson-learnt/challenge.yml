@@ -1,0 +1,23 @@
+name: Lesson Learnt
+author: Georgia Lee
+description: My friend Elizabeth was reading books on cryptology recently but hasn't come home in days. She left her laptop open and wrote these strange numbers on a sticky note... 
+
+hints:
+    - The flag format is pecan{secret_words}
+
+flags:
+    - {
+        type: "static",
+        content: "pecan{taming_halves_simple}",
+        data: "case_insensitive",
+    }
+value: 200
+type: dynamic
+extra:
+  initial: 500
+  decay: 4
+  function: linear
+  minimum: 100
+files:
+   - laptop_note.txt
+   - sticky_note_numbers.jpg

@@ -1,0 +1,17 @@
+name: wkwkwk
+author: Blair Johnston
+description: |
+  Who is this geezer and in which country do they stay?
+  Flag format is pecan{name_country}
+
+flags:
+  - pecan{vishnu_indonesia}
+value: 150
+type: dynamic
+extra:
+  initial: 250
+  decay: 2
+  function: linear
+  minimum: 100
+files:
+  - wkwkwk.jpg

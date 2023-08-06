@@ -1,0 +1,37 @@
+doctype html
+html
+    head
+        title Welcome to the Website!
+        link(href='/pico.classless.min.css', rel='stylesheet')
+    body
+        header
+            h1 Welcome to the Website!
+            nav
+                ul
+                    if notLoggedIn
+                        li
+                            a(href='login') Login
+                        li
+                            a(href='register') Register
+                    else
+                        li Hi #{username}
+                        li
+                            a(href='logout') Logout
+                    li
+                        a(href='account') Account
+                    li
+                        a(href='secrets') Secrets
+                    li
+                        a(href='hint') Hint
+        main
+            h2 About the Admin
+            img(src='/bob.png', alt='Bob the tomato', width='200px')
+            p Meet our admin, Bob the Tomato. Yes, you read that right. Bob the Tomato is a vegetable with a passion for web design and development. Despite his lack of arms and legs, Bob is able to code with his stem and is always eager to improve the website.
+            h2 Submit Your CSS Style
+            p Bob is currently accepting submissions for new CSS styles on the website. If you have a cool design you'd like to share, please use the form below to submit your CSS snippet. Bob will review it and might just feature it on the website!
+            form(action='/css-submit' method='POST')
+                label(for='css') CSS Code:
+                textarea(id='css' name='css')
+                button(type='submit') Submit
+            p
+                em Please note that all submissions will be reviewed by Bob and may be edited for compatibility and style consistency with the website.

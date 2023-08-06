@@ -1,0 +1,16 @@
+name: Engraved knowledge
+author: Ali Husnain
+description: |-
+  After traveling through different dimensions our mascot; Baxter has forgotten who he actually is as now he thinks he's an artist. Multidimensional travel could have changed him down to the molecular levels. There are rumors about him carrying some secret data.
+
+flags:
+  - pecan{B@xter-the-Duck-U0W}
+value: 200
+type: dynamic
+extra:
+  initial: 500
+  decay: 4
+  function: linear
+  minimum: 100
+files:
+  - hi.jpg

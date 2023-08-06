@@ -1,0 +1,19 @@
+name: Descent III
+author: Memphis Marshall
+description: |-
+  I was told someone found something rather unsettling hidden in this image...
+
+flags:
+  - pecan{d0wn_4nd_d0wn}
+value: 100
+type: dynamic
+extra:
+  initial: 500
+  decay: 4
+  function: linear
+  minimum: 100
+
+state: hidden
+
+files:
+  - descent3.png

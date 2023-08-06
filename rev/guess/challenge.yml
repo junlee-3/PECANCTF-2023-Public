@@ -1,0 +1,19 @@
+name: Guess the Number
+author: Daniel Herald
+description: |-
+  George created a basic Guess the Number game and wants to give you the flag!
+  However, he is very new to C, and hasn't quite learned that arrays start at 0.
+
+flags:
+  - pecan{H0W-d0-1-PR1nt-7hiS}
+value: 150
+type: dynamic
+extra:
+  initial: 250
+  decay: 2
+  function: linear
+  minimum: 100
+files:
+  - guess
+hints:
+  - What are strings terminated with in C?

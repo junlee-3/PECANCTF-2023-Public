@@ -1,0 +1,16 @@
+name: Loose Ends
+author: Ali Husnain
+description: |-
+  Baxter is acting suspicious lately. He might be hiding a surprise under him.
+
+flags:
+  - pecan{Sm@rter-3v3ry-D@y}
+value: 200
+type: dynamic
+extra:
+  initial: 500
+  decay: 4
+  function: linear
+  minimum: 100
+files:
+  - BaxterOnLawn.jpg

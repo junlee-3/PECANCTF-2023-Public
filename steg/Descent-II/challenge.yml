@@ -1,0 +1,19 @@
+name: Descent II
+author: Memphis Marshall
+description: |-
+  Someone seems to be hiding messages in these paintings. Can you find them?
+
+flags:
+  - pecan{4nd_d0wn_w3_g0}
+value: 100
+type: dynamic
+extra:
+  initial: 250
+  decay: 2
+  function: linear
+  minimum: 100
+
+state: hidden
+
+files:
+  - descent2.jpg

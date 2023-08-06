@@ -1,0 +1,13 @@
+name: Unlucky number
+author: Jack Ellis
+description: Someone's gone and encrypted the flag with a ROTten unlucky number. Can you decrypt it? crpna{1_u0c3_7u15_15_53phe3}
+
+flags:
+  - pecan{1_h0p3_7h15_15_53cur3}
+value: 100
+type: dynamic
+extra:
+  initial: 250
+  decay: 2
+  function: linear
+  minimum: 100

@@ -1,0 +1,15 @@
+name: Forward thinking
+author: Blair Johnston
+description: Old mate is on the beers again and he sent me this picture, along with "Senda Uber plxz". Help me locate this fella before he falls into the water. Format is pecan{example_bridge_country}
+
+flags:
+  - pecan{ord_bridge_singapore}
+value: 250
+type: dynamic
+extra:
+  initial: 500
+  decay: 4
+  function: linear
+  minimum: 100
+files:
+  - forward_thinking.jpg

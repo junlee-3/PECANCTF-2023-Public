@@ -1,0 +1,18 @@
+name: Oldoo
+author: Hoang Minh Pham
+description: An admin is launch a version of a business management software but the admin missed a point during cleaning the public websites. Can you spot it?
+
+flags:
+  - pecan{w3b_administr4tion_acc3ss_p4wned}
+
+value: 50
+type: dynamic
+extra:
+  initial: 500
+  decay: 4
+  function: linear
+  minimum: 100
+
+# ctfcli doesn't support external images, despite docs
+# image: ghcr.io/ecucomputingandsecurity/oldoo
+connection_info: https://pecan-oldoo.chals.io

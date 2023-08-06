@@ -1,0 +1,19 @@
+name: REALiZE
+author: Nano Axton
+description: |- 
+  Have you seen Across the Spiderverse? I found this song - REALiZE from the Japanese dub version. 
+  It's a great piece but I think I can hear a weird hum in the background... I wonder what that is.
+  Please don't forget to wrap the flag with pecan{} :)
+
+flags:
+  - pecan{H1dd1ng_L3tters_1n_WAV_f1les}
+value: 100
+type: dynamic
+extra:
+  initial: 250
+  decay: 2
+  function: linear
+  minimum: 100
+files:
+  - REALiZE.wav
+

@@ -1,0 +1,22 @@
+name: perfect-immortal-machine
+author: Celeste Ivers
+description: |
+  You will NOT need to actually visit these IPs or navigate to them in order to solve the challenge. Use OSINT tools and Google.
+  Flag format - pecan{word}
+  Hint - the answer is one word and is not plural.
+  What do these IP addresses have in common?
+  217.7.112.174
+  51.254.93.107
+  98.167.230.52
+  64.20.55.5
+  20.254.68.185
+
+flags:
+  - pecan{honeypot}
+value: 200
+type: dynamic
+extra:
+  initial: 500
+  decay: 4
+  function: linear
+  minimum: 100

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Home</title>
+  <style>
+    body {
+      background-color: blue;
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Welcome, {{ username }}</h1>
+  <div class="image-container">
+    <img src="{{ url_for('static', filename='monster.png') }}" alt="AI monster">
+    <div class="overlay-text">This image is AI generated using Canva</div>
+    <form action="/logout" method="post">
+      <input type="submit" value="Logout">
+    </form>
+  </div>
+</body>
+
+</html>

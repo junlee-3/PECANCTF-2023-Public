@@ -1,0 +1,25 @@
+name: d3cryptm3
+author: Sri Devalpally
+description: |-
+  We found a crucial piece of intelligence to invade Krypton!
+  The program allows certain airships (who possess an approved token) to enter kryptonian atmosphere.
+  Unfortunately, we have figured out that it's encrypted and thus we can't read it :(
+  Can you obtain the secret token?
+
+  When you solve the challenge, you will be presented with an MD5 hash.
+  Please submit the flag as pecan{MD5_hash}
+
+flags:
+  - pecan{31dd46cccee0d5132f9cc2eafb76eb94}
+value: 200
+type: dynamic
+extra:
+  initial: 500
+  decay: 4
+  function: linear
+  minimum: 100
+files:
+  - d3cryptm3
+
+hints:
+  - Hex will be your friend today!

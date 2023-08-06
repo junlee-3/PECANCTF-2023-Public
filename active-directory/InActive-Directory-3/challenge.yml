@@ -1,0 +1,17 @@
+name: InActive Directory 3
+author: Chris Fitzsimons (CyberCX)
+description: |-
+  Read InActive Directory 1 for challenge files and scenario.
+
+  How many users are AESRoastable in BloodHound?
+
+  Flag Format is pecan{Number}
+flags:
+  - pecan{16}
+value: 100
+type: dynamic
+extra:
+  initial: 500
+  decay: 4
+  function: linear
+  minimum: 100

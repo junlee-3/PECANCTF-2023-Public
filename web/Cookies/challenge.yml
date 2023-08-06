@@ -1,0 +1,15 @@
+name: Cookies
+author: Joel OBrien
+description: The intern just modified the way cookies are created on the website, I hope they made it secure!
+
+flags:
+  - pecan{1_h4x3d_t3h_c00k135}
+value: 150
+type: dynamic
+extra:
+  initial: 500
+  decay: 4
+  function: linear
+  minimum: 100
+
+image: .

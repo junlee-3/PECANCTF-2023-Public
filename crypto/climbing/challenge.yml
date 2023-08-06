@@ -1,0 +1,14 @@
+name: "Climbing"
+author: "Lachlan Adamson"
+description: "The flag has been encrypted with a climbing key. Decrypt the flag: 112-102-101-100-114-128-59-123-122-60-62-120-79-62-126-119-67-131-143"
+
+flags:
+  - "pecan{5tr34mC1ph3r}"
+
+value: 300
+type: dynamic
+extra:
+  initial: 500
+  decay: 4
+  function: linear
+  minimum: 100

@@ -1,0 +1,20 @@
+name: Spilled Secrets
+author: Australian Signals Directorate (ASD)
+description: |
+  We've discovered an encrypted flag and the instructions used to encrypt it. 
+  Unfortunately I spilt pixels all over the instructions...
+  Hopefully there's enough encrypted text in the message for you to figure it out...
+
+flags:
+  - pecan{nospaceforspaces}
+value: 500
+type: dynamic
+extra:
+  initial: 500
+  decay: 4
+  function: linear
+  minimum: 100
+
+files:
+  - message.txt
+  - vigistep.png

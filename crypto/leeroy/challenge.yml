@@ -1,0 +1,13 @@
+name: LEEROY!!!
+author: Jack Ellis
+description: Although my last name is the key, it's anothers that conceal my secrets. yipkv{NL_UINCB_V_ZJZR_MPVUTIA}
+
+flags:
+  - pecan{AT_LEAST_I_HAVE_CHICKEN}
+value: 300
+type: dynamic
+extra:
+  initial: 500
+  decay: 4
+  function: linear
+  minimum: 100

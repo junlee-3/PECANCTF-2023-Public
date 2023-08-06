@@ -1,0 +1,16 @@
+name: Who am I
+author: Ali Husnain
+description: |-
+  A python program has exposed some data which might lead to some discoveries.
+
+flags:
+  - pecan{1m-3@t-Man}
+value: 200
+type: dynamic
+extra:
+  initial: 500
+  decay: 4
+  function: linear
+  minimum: 100
+files:
+  - run.py

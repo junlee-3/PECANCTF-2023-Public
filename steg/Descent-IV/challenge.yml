@@ -1,0 +1,17 @@
+name: Descent IV
+author: Memphis Marshall
+description: |-
+  Behind an accursed face lies a happier place...
+
+flags:
+  - pecan{b3l0w_th3_fl00r}
+value: 100
+type: dynamic
+extra:
+  initial: 500
+  decay: 4
+  function: linear
+  minimum: 100
+
+files:
+  - descent4.jpg

@@ -1,0 +1,17 @@
+name: The Great Tor Reveal
+author: Lachlan Korodaj
+description: I heard that you can host hidden sites on the dark web with TOR! Surely there isn't a way to leak the clearweb domain?
+
+flags:
+  - pecan{70r_15_n07_50_60od_@f_h1dd3n_1nf0}
+value: 250
+type: dynamic
+extra:
+  initial: 500
+  decay: 4
+  function: linear
+  minimum: 100
+
+image: .
+
+connection_info: curl -vv --socks4a 127.0.0.1:9050 add_hostname_here.onion

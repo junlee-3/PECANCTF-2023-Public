@@ -1,0 +1,25 @@
+name: InActive Directory 2
+author: Chris Fitzsimons (CyberCX)
+description: |-
+  Read InActive Directory 1 for challenge files and scenario.
+
+  Which GPOs are applied to the Domain Workstations?
+
+  Note: Keep spaces where relevant and don't add @PECAN.LOCAL to your flag.
+  Flag format is pecan{GPO-GPO} and order doesn't matter.
+flags:
+  - pecan{DEVICE MANAGEMENT-DEFAULT DOMAIN POLICY}
+  - pecan{DEFAULT DOMAIN POLICY-DEVICE MANAGEMENT}
+value: 100
+type: dynamic
+extra:
+  initial: 500
+  decay: 4
+  function: linear
+  minimum: 100
+
+hints:
+  - {
+      content: "Try using a bloodhound Cypher https://hausec.com/2019/09/09/bloodhound-cypher-cheatsheet/",
+      cost: 10,
+    }

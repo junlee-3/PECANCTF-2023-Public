@@ -1,0 +1,20 @@
+doctype html
+html
+    head
+        title Register
+        link(href='/pico.classless.min.css', rel='stylesheet')
+    body
+        header
+            h1 Register
+        main
+            form(action='/register' method='POST')
+                label(for='username') Username:
+                input(type='text' id='username' name='username' required)
+                br
+                label(for='password') Password:
+                input(type='password' id='password' name='password' required)
+                small I haven't tested this on any non-lowercase letters yet, so use those just to be safe! -Bob
+                br
+                button(type='submit') Register
+            p
+                strong Please note that this form is unencrypted and should only be used for testing purposes. Please do not enter any real credentials. Use a test password instead.

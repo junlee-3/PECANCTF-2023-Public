@@ -1,0 +1,23 @@
+name: Steg Cat Part 3
+author: Hoang Minh Pham (ECU)
+description: |-
+  James has another image which is used to hide some secret and he used the
+  same techniques as the previous challenge (part 2). However, there is
+  something not right with the payload this time.
+
+  Can you help him to recover his secret? Maybe he will share the secret.
+
+flag:
+  - pecan{Header_is_really_important!!!}
+value: 320
+type: dynamic
+extra:
+  initial: 500
+  decay: 4
+  function: linear
+  minimum: 100
+
+files:
+  - new_image_binary.png  # The image carrying hidden message
+  - main_script_Hard.py  # The main script to run Steg
+  - LSBSteg_Script_To_Student.py  # The provided LSBSteg library

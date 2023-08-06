@@ -1,0 +1,17 @@
+name: Descent V
+author: Memphis Marshall
+description: |-
+  Crazy? I was crazy once
+
+flags:
+  - pecan{4_rubb3r_r00m_w1th_f4ncy_c4t5}
+value: 100
+type: dynamic
+extra:
+  initial: 500
+  decay: 4
+  function: linear
+  minimum: 100
+
+files:
+  - descent5.jpg

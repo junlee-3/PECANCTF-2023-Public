@@ -1,0 +1,19 @@
+name: Challenge coin
+author: Paul Haskell-Dowland
+description: |-
+  In 2022, we introduced a challenge coin as a gift to all competitors in the PECAN+ CTF competition.
+  We also published a photo of the coin: https://pecanplus.ecusri.org/?page=challenges&challenge=coin-2022
+  If you can solve the layers of encryption, you will find a flag that can be submitted here.
+  The format is pecan{FLAG}
+
+flags:
+  - pecan{PECAN4WASGR8}
+value: 100
+type: dynamic
+extra:
+  initial: 500
+  decay: 4
+  function: linear
+  minimum: 100
+files:
+  - coin.png

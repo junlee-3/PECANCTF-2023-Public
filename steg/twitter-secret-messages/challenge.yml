@@ -1,0 +1,19 @@
+name: Twitter Secret Messages
+author: Nano Axton
+description: |- 
+  We found this tweet from a person of interest related to a case we have been investigating. 
+  We have reasons to believe that the tweet reveals a location. Submit the flag as pecan{location_in_lowercase}
+
+flags: 
+  - pecan{metagarup_bridge}
+value: 300
+type: dynamic
+extra:
+  initial: 500
+  decay: 4
+  function: linear
+  minimum: 100
+files: 
+  - TwitterSecretMessages.txt
+clues: 
+  - What are homoglyphs?

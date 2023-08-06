@@ -1,0 +1,11 @@
+name: rules
+author: pl4nty
+description: |
+  Please follow the rules for this CTF!
+
+flags:
+  - type: static
+    content: pecan{we_hope_you_enjoy_the_ctf!}
+    data: case_insensitive
+
+value: 50

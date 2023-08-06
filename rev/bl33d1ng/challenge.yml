@@ -1,0 +1,21 @@
+name: bl33d1ng
+author: Sri Devalpally
+description: |-
+  This program is bleeding. Can you patch the bleeding?
+
+  When you solve the challenge, you will be presented with an MD5 hash.
+  Please submit the flag as pecan{MD5_hash}
+
+flags:
+  - pecan{9549fb521a0792265a81418764f51b5f}
+value: 150
+type: dynamic
+extra:
+  initial: 500
+  decay: 4
+  function: linear
+  minimum: 100
+files:
+  - bl33d1ng
+hints:
+  - Find the loop!

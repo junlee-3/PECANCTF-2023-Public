@@ -1,0 +1,27 @@
+name: InActive Directory 4
+author: Chris Fitzsimons (CyberCX)
+description: |-
+  Read InActive Directory 1 for challenge files and scenario.
+
+  How did the attacker get access to the ServiceDesk account?
+
+  Flag Format is pecan{ServiceDesk-Password}
+flags:
+  - pecan{ServiceDesk-0ld_8ut_S7i1l_R3lev4nt}
+value: 200
+type: dynamic
+extra:
+  initial: 500
+  decay: 4
+  function: linear
+  minimum: 100
+
+hints:
+  - {
+      content: "The Domain Controller uses Windows Server 2012, I wonder if the GPOs are secure",
+      cost: 10,
+    }
+  - {
+      content: "https://infinitelogins.com/2020/09/07/cracking-group-policy-preferences-file-gpp-xml/",
+      cost: 10,
+    }

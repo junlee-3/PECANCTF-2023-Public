@@ -1,0 +1,25 @@
+name: InActive Directory 6
+author: Chris Fitzsimons (CyberCX)
+description: |-
+  Read InActive Directory 1 for challenge files and scenario.
+
+  How did the attacker get Domain Admin?
+
+  Flag Format is pecan{Administrator-Password}
+flags:
+  - pecan{Administrator_iloveanime100%}
+value: 200
+type: dynamic
+extra:
+  initial: 500
+  decay: 4
+  function: linear
+  minimum: 100
+
+hints:
+  - https://book.hacktricks.xyz/windows-hardening/active-directory-methodology/kerberoast
+  - { content: "How easy can cracking kerberos hashes be?", cost: 10 }
+  - {
+      content: "https://medium.com/@markmotig/kerberoasting-from-setup-to-cracking-3e8c980f26e8",
+      cost: 10,
+    }

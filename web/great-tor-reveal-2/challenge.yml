@@ -1,0 +1,20 @@
+name: The Great Tor Reveal 2
+author: Lachlan Korodaj
+description: Wow! I can't believe tor is insecure! I've disabled the HTTP downgrade attack so you pesky hackers can't pwn me! I sure hope my web request logs are secure...
+
+flags:
+  - pecan{d15ab13d_HtTp_15_n0_m0R3}
+value: 250
+type: dynamic
+extra:
+  initial: 500
+  decay: 4
+  function: linear
+  minimum: 100
+
+image: .
+
+connection_info: curl -vv --socks4a 127.0.0.1:9050 add_hostname_here.onion
+
+requirements:
+  - The Great Tor Reveal

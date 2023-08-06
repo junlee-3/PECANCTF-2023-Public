@@ -1,0 +1,28 @@
+name: Steg Cat Part 1
+author: Hoang Minh Pham (ECU)
+description: |-
+  James learnt about Steganography in his cryptography class two weeks ago,
+  and he was very interested in trying his new knowledge.
+  He decided to add a twist in the Least Significant Bit (LSB) technique by not
+  using the Least Significant Bit (LSB) to hide a message in an image anymore.
+
+  However, he does not remember now which bit order he used to hide the message
+  in the image anymore. You are provided 2 Python scripts which are used to
+  extract the hidden message in James's image.
+
+  Can you help him recover his message?
+
+flag:
+  - pecan{It_is_not_always_the_Least_Significant_Bit}
+value: 190
+type: dynamic
+extra:
+  initial: 500
+  decay: 4
+  function: linear
+  minimum: 100
+
+files:
+  - my_new_imageW.png  # The image carrying hidden message
+  - main_script_Easy.py  # The main script to run Steg
+  - LSBSteg_Script_To_Student.py  # The provided LSBSteg library to be used by the students

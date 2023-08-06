@@ -1,0 +1,1 @@
+Open the file in programs such as Audacity. Click "view spectogram" and it reveals the flag.

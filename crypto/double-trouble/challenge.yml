@@ -1,0 +1,15 @@
+name: Double trouble
+author: Jack Ellis
+description: Some binary values from an unknown sender were found in our communication logs. Are you able to decrypt the transmission to reveal their identity?
+
+flags:
+  - pecan{50rry_t0_k33p_y0u_gu355ing}
+value: 400
+type: dynamic
+extra:
+  initial: 500
+  decay: 4
+  function: linear
+  minimum: 100
+files:
+  - communications.log

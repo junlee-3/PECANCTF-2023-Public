@@ -1,0 +1,14 @@
+name: survey
+author: pl4nty
+description: |
+  Tell us what you thought about PECAN+ 2023. Every bit of feedback helps, so please take the time to fill out the form as honestly and as accurately as you can!
+
+flags:
+  - type: static
+    content: pecan{th4nks_f0r_pl4y1ng!}
+    data: case_insensitive
+
+value: 50
+
+connection_info: https://forms.microsoft.com/r/hEqGNEjexM
+state: hidden
